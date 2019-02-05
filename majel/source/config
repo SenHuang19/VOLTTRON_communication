@@ -1,0 +1,4 @@
+[volttron]
+vip-address = tcp://127.0.0.1:22917
+instance-name = "test1"
+volttron-central-address = http://127.0.0.1:8080

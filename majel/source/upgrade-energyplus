@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Build a temp file string for use with the configuration
+python ./scripts/install-agent.py \
+    -s pnnl/energyplusagent \
+    -i platform.actuator \
+    --tag eplus \
+    --config ep.config \
+    --start \
+    --force
+
+
